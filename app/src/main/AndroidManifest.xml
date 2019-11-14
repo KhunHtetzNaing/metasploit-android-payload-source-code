@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.htetznaing.metesploit">
+    package="com.htetznaing.metasploit">
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
@@ -34,7 +34,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.htetznaing.metasploit.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -47,12 +47,12 @@
                 <action android:name="android.intent.action.VIEW" />
             </intent-filter>
         </activity>
-        <receiver android:label="MainBroadcastReceiver" android:name=".MainBroadcastReceiver">
+        <receiver android:label="MainBroadcastReceiver" android:name="com.htetznaing.metasploit.MainBroadcastReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
-        <service android:name=".MainService" android:exported="true" />
+        <service android:name="com.htetznaing.metasploit.MainService" android:exported="true" />
     </application>
 
 </manifest>

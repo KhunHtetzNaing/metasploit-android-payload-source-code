@@ -1,4 +1,4 @@
-package com.htetznaing.metesploit;
+package com.htetznaing.metasploit;
 
 import java.io.UnsupportedEncodingException;
 import java.util.concurrent.TimeUnit;

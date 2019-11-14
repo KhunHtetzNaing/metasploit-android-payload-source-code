@@ -1,4 +1,4 @@
-package com.htetznaing.metesploit;
+package com.htetznaing.metasploit;
 
 import java.net.URLConnection;
 import java.security.MessageDigest;

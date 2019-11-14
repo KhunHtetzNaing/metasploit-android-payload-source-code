@@ -1,4 +1,4 @@
-package com.htetznaing.metesploit;
+package com.htetznaing.metasploit;
 
 import android.app.Service;
 import android.content.Context;

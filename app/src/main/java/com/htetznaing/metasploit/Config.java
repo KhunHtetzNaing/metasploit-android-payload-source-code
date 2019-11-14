@@ -1,4 +1,4 @@
-package com.htetznaing.metesploit;
+package com.htetznaing.metasploit;
 import java.util.LinkedList;
 import java.util.List;
 
